@@ -1,0 +1,8 @@
+npm install --save nodemon body-parser express   ->  INSTALAR EXPRESS  y nodemon significa que actualizara los cambios
+npm install --save pug ->> para instlaar pug
+
+Web para pasar html a pug - >https://html2jade.org/
+
+ npm start env --production -> Correr express en production
+
+npm install --save mysql2 sequelize -> Instlar squerilize
