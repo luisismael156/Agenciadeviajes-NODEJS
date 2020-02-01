@@ -32,7 +32,8 @@ app.locals.titulo = config.nombresito
 app.use((req, res, next) => {
   const fecha = new Date()
   res.locals.fechaActual = fecha.getFullYear()
-  return next()
+  res.locals.ruta = req.path;
+  return next();
 })
 
 app.use(bodyParser.urlencoded({extended:true}));
