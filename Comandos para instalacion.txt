@@ -6,3 +6,5 @@ Web para pasar html a pug - >https://html2jade.org/
  npm start env --production -> Correr express en production
 
 npm install --save mysql2 sequelize -> Instlar squerilize
+
+npm install --save-dev dotenv -> para generar variables de entorno(parara local y prudction)
